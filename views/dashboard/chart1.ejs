@@ -6,16 +6,20 @@
       google.setOnLoadCallback(drawChart);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'Sales', 'Expenses'],
-          ['2004',  1000,      400],
-          ['2005',  1170,      460],
-          ['2006',  660,       1120],
-          ['2007',  1030,      540]
+          ['Trip date', 'Average MPG', 'Average speed'],
+          ['03/10/2014',  44,      55],
+          ['03/12/2014',  46,      56],
+          ['03/13/2014',  42,       66],
+          ['03/14/2014',  55,      54],
+          ['03/15/2014',  46,       66],
+          ['03/16/2014',  57,      22],
+          ['03/17/2014',  48,       66],
+          ['03/18/2014',  51,      57]
         ]);
 
         var options = {
-          title: 'Company Performance',
-          hAxis: {title: 'Year', titleTextStyle: {color: 'red'}}
+          title: 'Average MPG vs Average speed',
+          hAxis: {title: 'Date', titleTextStyle: {color: 'Black'}}
         };
 
         var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
