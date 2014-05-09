@@ -5,6 +5,13 @@
  */
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+
+#map{
+  width: 100%;
+  min-height: 300px;
+  margin: 0 0 4% 0;
+}
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;

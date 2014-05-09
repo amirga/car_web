@@ -126,3 +126,4 @@ Morris.Bar ({
   xLabelAngle: 35,
   hideHover: 'auto'
 });
+

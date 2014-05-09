@@ -4,6 +4,12 @@
  */
 /* FONT PATH
  * -------------------------- */
+#map{
+  width: 100%;
+  min-height: 300px;
+  margin: 0 0 4% 0;
+}
+
 @font-face {
   font-family: 'FontAwesome';
   src: url('../fonts/fontawesome-webfont.eot?v=4.0.3');
